@@ -35,6 +35,9 @@ Singleton {
   signal searchFailed(string error)
   signal wallpaperDownloaded(string wallpaperId, string localPath)
 
+  // Helpers
+  readonly property bool isSafeSearchEnforced: purity === "100" || purity === "" || purity === "000"
+
   // Base API URL
   readonly property string apiBaseUrl: "https://wallhaven.cc/api/v1"
 
@@ -62,7 +65,14 @@ Singleton {
     }
 
     params.push("categories=" + categories);
-    params.push("purity=" + purity);
+    
+    // Safety Logic
+    var finalPurity = purity;
+    if (purity === "" || purity === "000") {
+        finalPurity = "100";
+    }
+    params.push("purity=" + finalPurity);
+    
     params.push("sorting=" + sorting);
     params.push("order=" + order);
 
@@ -98,7 +108,10 @@ Singleton {
 
     url += "?" + params.join("&");
 
+    // UX Logging
+    var activeHex = isSafeSearchEnforced ? "\u{f033e}" : "\u{f0341}";
     Logger.d("Wallhaven", "Searching:", url);
+    Logger.d("Wallhaven", "Active Safety Hex:", activeHex);
 
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {

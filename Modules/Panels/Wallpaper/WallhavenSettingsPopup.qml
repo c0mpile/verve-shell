@@ -290,6 +290,14 @@ Popup {
         Layout.preferredWidth: implicitWidth
       }
 
+      NText {
+        readonly property bool isSafe: typeof WallhavenService !== "undefined" ? WallhavenService.isSafeSearchEnforced : true
+        text: isSafe ? "\u{f033e}" : "\u{f0341}"
+        color: isSafe ? Color.mPrimary : Color.mError
+        pointSize: Style.fontSizeL
+        Layout.alignment: Qt.AlignVCenter
+      }
+
       Item {
         Layout.fillWidth: true
       }
