@@ -80,10 +80,7 @@ Item {
     id: screenRecorderTab
     ScreenRecorderTab {}
   }
-  Component {
-    id: aboutTab
-    AboutTab {}
-  }
+
   Component {
     id: hooksTab
     HooksTab {}
@@ -253,12 +250,7 @@ Item {
             "icon": "settings-hooks",
             "source": hooksTab
           },
-          {
-            "id": SettingsPanel.Tab.About,
-            "label": "settings.about.title",
-            "icon": "settings-about",
-            "source": aboutTab
-          }
+
         ];
 
     root.tabsModel = newTabs;

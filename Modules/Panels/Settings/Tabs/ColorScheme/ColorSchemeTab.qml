@@ -44,7 +44,7 @@ ColumnLayout {
     var schemeName = filename.replace(".json", "");
 
     if (schemeName === "Noctalia-default") {
-      schemeName = "Noctalia (default)";
+      schemeName = "Verve (default)";
     } else if (schemeName === "Noctalia-legacy") {
       schemeName = "Noctalia (legacy)";
     } else if (schemeName === "Tokyo-Night") {

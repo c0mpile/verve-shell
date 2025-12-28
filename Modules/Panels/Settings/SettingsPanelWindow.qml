@@ -10,7 +10,7 @@ import qs.Widgets
 FloatingWindow {
   id: root
 
-  title: "Noctalia"
+  title: "Verve Shell"
   minimumSize: Qt.size(820 * Style.uiScaleRatio, 910 * Style.uiScaleRatio)
   implicitWidth: Math.round(820 * Style.uiScaleRatio)
   implicitHeight: Math.round(910 * Style.uiScaleRatio)

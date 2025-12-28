@@ -43,7 +43,7 @@ ShellRoot {
 
   Component.onCompleted: {
     Logger.i("Shell", "---------------------------");
-    Logger.i("Shell", "Noctalia Hello!");
+    Logger.i("Shell", "Verve Shell Hello!");
 
     // Initialize plugin system early so Settings can validate plugin widgets
     PluginRegistry.init();

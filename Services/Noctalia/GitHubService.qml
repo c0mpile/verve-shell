@@ -324,7 +324,7 @@ Singleton {
       processNextAvatar();
     } else {
       Logger.d("GitHubService", "All avatars already cached");
-      cachedCircularAvatarsChanged(); // Notify AboutTab
+      cachedCircularAvatarsChanged();
     }
   }
 

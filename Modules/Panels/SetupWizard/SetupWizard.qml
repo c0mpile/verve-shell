@@ -146,7 +146,7 @@ SmartPanel {
                   spacing: Style.marginM
 
                   NText {
-                    text: "Welcome to Noctalia! ✨"
+                    text: "Welcome to Verve Shell! ✨"
                     pointSize: Style.fontSizeXXL * 1.4
                     font.weight: Style.fontWeightBold
                     color: Color.mOnSurface

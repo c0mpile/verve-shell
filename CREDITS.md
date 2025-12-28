@@ -1,6 +1,6 @@
 # Credits
 
-Noctalia Shell is made possible by the incredible work of many open-source projects and contributors.
+Verve Shell is made possible by the incredible work of many open-source projects and contributors.
 
 ## Design & Branding
 
@@ -9,7 +9,7 @@ Noctalia Shell is made possible by the incredible work of many open-source proje
 
 ## Core Framework
 
-- **[Quickshell](https://github.com/outfoxxed/quickshell)** - The Qt/QML-based Wayland shell framework that powers Noctalia
+- **[Quickshell](https://github.com/outfoxxed/quickshell)** - The Qt/QML-based Wayland shell framework that powers Verve Shell
 
 ## Runtime Dependencies
 
@@ -38,9 +38,9 @@ Noctalia Shell is made possible by the incredible work of many open-source proje
 ## Special Thanks
 - The **Wayland** community for building the future of Linux desktop graphics
 - The **Niri**, **Hyprland**, **Sway**, and **MangoWC** teams for their excellent Wayland compositors
-- All the contributors and users who have helped make Noctalia better
+- All the contributors and users of Noctalia Shell. Without you, Verve Shell would not exist.
 
 ## License
-Noctalia Shell is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+Verve Shell is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 Each dependency listed above is governed by its own respective license. Please refer to their individual projects for licensing information.

@@ -64,8 +64,8 @@
           "label": "Low battery warning threshold"
         },
         "show-noctalia-performance": {
-          "description": "Display the Noctalia Performance Mode toggle inside the battery panel.",
-          "label": "Show Noctalia Performance toggle"
+          "description": "Display the Performance Mode toggle inside the battery panel.",
+          "label": "Show Performance toggle"
         },
         "show-power-profile": {
           "description": "Display the power profile selection inside the battery panel.",
@@ -516,7 +516,7 @@
         "version": "Version {version}"
       },
       "subtitle": {
-        "fresh": "Thanks for installing Noctalia! Here is what’s included in this build.",
+        "fresh": "Thanks for installing Verve Shell! Here is what’s included in this build.",
         "updated": "Updated from {previousVersion}"
       },
       "title": "What's new in {version}",
@@ -790,7 +790,7 @@
     "enter-width-pixels": "Enter width in pixels",
     "profile-picture-path": "/home/user/.face",
     "search": "Search...",
-    "search-icons": "e.g., noctalia, niri, battery, cloud",
+    "search-icons": "e.g., niri, battery, cloud",
     "search-launcher": "Search entries... or use > for commands",
     "search-wallhaven": "Search Wallhaven...",
     "search-wallpapers": "Type to filter wallpapers...",
@@ -922,7 +922,7 @@
         "latest-version": "Latest version:",
         "section": {
           "description": "A sleek and minimal desktop shell thoughtfully crafted for Wayland, built with Quickshell.",
-          "label": "Noctalia shell"
+          "label": "Verve Shell"
         }
       },
       "support": "Support us",

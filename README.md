@@ -28,7 +28,7 @@ The foundation this fork builds upon:
 
 - **Wayland-Native Support**: Niri, Hyprland, Sway, MangoWC, labwc
 - **Modular Plugin System**: Extensible architecture for bars, panels, desktop widgets
-- **Material You Theming**: Dynamic color generation via Matugen (rebranded as Noctalia theme)
+- **Material You Theming**: Dynamic color generation via Matugen (rebranded as Verve Shell theme)
 - **Unified UI Scaling**: Consistent scaling across all components
 - **Built-in Services**: Audio, Battery, Network, Location, Power Profile management
 - **Quickshell Foundation**: High-performance QML-based rendering engine
@@ -44,7 +44,7 @@ _(Note: Base integration exists upstream; these are UX refinements)_
 - **Enhanced Preview Scaling**: Improved image preview rendering for better visual feedback
 - **Flexible API Key Configuration**: 
   - Set via Settings UI
-  - **OR** via environment variable: `env = NOCTALIA_WALLHAVEN_API_KEY,<your_key>` (Hyprland config)
+  - **OR** via environment variable: `env = VERVE_WALLHAVEN_API_KEY,<your_key>` (Hyprland config)
 - **Persistent Browsing State**: Browser remembers current page across sessions
 - **Direct Page Navigation**: Type page number into input field, click next page button to jump directly
 - **Improved Input Handling**: Enhanced query fallback logic and key event handling
